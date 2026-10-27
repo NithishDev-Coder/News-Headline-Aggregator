@@ -1,7 +1,3 @@
-
-# cleaner.py
-# Clean and validate news headlines
-
 import hashlib
 import logging
 from datetime import datetime, timezone
