@@ -1,0 +1,41 @@
+NEWS HEADLINES AGGREGATOR
+ROLE 3 – GUARDIAN SCRAPER PROGRESS
+
+Date: 27 October 2026
+
+1. PROJECT SETUP
+   Status: IN PROGRESS
+   The project folder is available in VS Code.
+   The Guardian scraper and test files are present.
+
+2. GUARDIAN SCRAPER TESTING
+   Status: DONE
+   Command: py -m pytest -v test_scraper_guardian.py
+
+Test results:
+
+- test_guardian_parser: PASSED
+- test_guardian_handles_http_403: PASSED
+- test_guardian_handles_http_429: PASSED
+
+Total: 3 tests passed in 0.37 seconds.
+
+3. WEBSITE PERMISSION CHECK
+   Status: STOPPED – PERMISSION REQUIRED
+   The Guardian robots.txt and Terms of Service indicate restrictions on automated scraping without permission.
+   Live scraping must not continue unless appropriate written permission or authorised access is obtained.
+
+4. SAMPLE HTML
+   Status: NOT VERIFIED
+   The current guardian_sample.html must not be described as authentic Guardian webpage data unless it was obtained lawfully and with appropriate authorisation.
+
+5. REMAINING WORK
+
+- Confirm authorised access with the team lead.
+- Review the existing scraper and its integration requirements.
+- Prepare the Role 3 report.
+- Prepare the Role 3 viva questions and answers.
+- Run offline tests using permitted sample HTML.
+
+Note:
+Passing offline tests does not establish permission to scrape the live website.
