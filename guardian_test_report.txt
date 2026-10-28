@@ -1,0 +1,23 @@
+GUARDIAN SCRAPER – TEST REPORT
+
+Project Name: News Headlines Aggregator
+Module Name: Guardian Scraper
+File Name: scraper_guardian.py
+
+1. Objective
+   To collect news headlines from The Guardian website and return them in the required format.
+
+2. Testing Performed
+
+- Guardian headline parser test
+- HTTP 403 Forbidden response test
+- HTTP 429 Too Many Requests response test
+
+3. Test Results
+
+- Guardian Parser: PASSED
+- HTTP 403 Handling: PASSED
+- HTTP 429 Handling: PASSED
+
+4. Conclusion
+   All three Guardian Scraper tests passed successfully. The module handles sample HTML and the tested HTTP error responses correctly.
